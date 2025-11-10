@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 import com.google.protobuf.ByteString;
@@ -6,10 +6,10 @@ import com.google.protobuf.InvalidProtocolBufferException;
 import java.security.SignatureException;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
-import org.tron.p2p.protos.Discover.DnsRoot;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.protos.Discover.DnsRoot;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class RootEntry implements Entry {

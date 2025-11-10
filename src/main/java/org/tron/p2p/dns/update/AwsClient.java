@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.update;
+package org.linda.p2p.dns.update;
 
 
 import java.text.NumberFormat;
@@ -11,13 +11,13 @@ import java.util.Map.Entry;
 import java.util.Set;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.tree.LinkEntry;
-import org.tron.p2p.dns.tree.NodesEntry;
-import org.tron.p2p.dns.tree.RootEntry;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.tree.LinkEntry;
+import org.linda.p2p.dns.tree.NodesEntry;
+import org.linda.p2p.dns.tree.RootEntry;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
 import software.amazon.awssdk.auth.credentials.AwsCredentials;
 import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
 import software.amazon.awssdk.regions.Region;
@@ -213,7 +213,7 @@ public class AwsClient implements Publish {
         if (rootDomain.equalsIgnoreCase(name)) {
           rootContent = content;
         }
-        if (content.startsWith(org.tron.p2p.dns.tree.Entry.nodesPrefix)) {
+        if (content.startsWith(org.linda.p2p.dns.tree.Entry.nodesPrefix)) {
           NodesEntry nodesEntry;
           try {
             nodesEntry = NodesEntry.parseEntry(content);

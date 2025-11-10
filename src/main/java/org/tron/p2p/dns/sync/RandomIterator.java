@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.sync;
+package org.linda.p2p.dns.sync;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,9 +12,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.tree.LinkEntry;
-import org.tron.p2p.exception.DnsException;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.tree.LinkEntry;
+import org.linda.p2p.exception.DnsException;
 
 
 @Slf4j(topic = "net")

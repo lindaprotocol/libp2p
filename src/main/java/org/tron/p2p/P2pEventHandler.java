@@ -1,8 +1,8 @@
-package org.tron.p2p;
+package org.linda.p2p;
 
 import java.util.Set;
 import lombok.Getter;
-import org.tron.p2p.connection.Channel;
+import org.linda.p2p.connection.Channel;
 
 public abstract class P2pEventHandler {
 

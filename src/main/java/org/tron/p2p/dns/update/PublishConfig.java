@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.update;
+package org.linda.p2p.dns.update;
 
 
 import java.net.InetSocketAddress;

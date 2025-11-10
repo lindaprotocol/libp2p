@@ -1,6 +1,6 @@
-package org.tron.p2p.discover.protocol.kad.table;
+package org.linda.p2p.discover.protocol.kad.table;
 
-import org.tron.p2p.discover.Node;
+import org.linda.p2p.discover.Node;
 
 public class NodeEntry {
   private Node node;

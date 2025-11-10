@@ -1,12 +1,12 @@
-package org.tron.p2p.utils;
+package org.linda.p2p.utils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.base.Constant;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.protos.Discover;
+import org.linda.p2p.base.Constant;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.protos.Discover;
 
 import java.net.InetSocketAddress;
 

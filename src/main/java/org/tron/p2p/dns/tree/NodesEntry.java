@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 import com.google.protobuf.InvalidProtocolBufferException;
@@ -6,9 +6,9 @@ import java.net.UnknownHostException;
 import java.util.List;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
 
 @Slf4j(topic = "net")
 public class NodesEntry implements Entry {

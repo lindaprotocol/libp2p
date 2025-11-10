@@ -1,9 +1,9 @@
-package org.tron.p2p.connection.message.keepalive;
+package org.linda.p2p.connection.message.keepalive;
 
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.MessageType;
-import org.tron.p2p.protos.Connect;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.MessageType;
+import org.linda.p2p.protos.Connect;
 
 public class PingMessage extends Message {
 

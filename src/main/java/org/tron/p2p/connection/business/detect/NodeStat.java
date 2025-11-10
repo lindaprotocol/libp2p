@@ -1,8 +1,8 @@
-package org.tron.p2p.connection.business.detect;
+package org.linda.p2p.connection.business.detect;
 
 import lombok.Data;
-import org.tron.p2p.connection.message.detect.StatusMessage;
-import org.tron.p2p.discover.Node;
+import org.linda.p2p.connection.message.detect.StatusMessage;
+import org.linda.p2p.discover.Node;
 
 import java.net.InetSocketAddress;
 

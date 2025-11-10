@@ -1,21 +1,21 @@
-package org.tron.p2p.connection.business.keepalive;
+package org.linda.p2p.connection.business.keepalive;
 
-import static org.tron.p2p.base.Parameter.KEEP_ALIVE_TIMEOUT;
-import static org.tron.p2p.base.Parameter.PING_TIMEOUT;
+import static org.linda.p2p.base.Parameter.KEEP_ALIVE_TIMEOUT;
+import static org.linda.p2p.base.Parameter.PING_TIMEOUT;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.connection.Channel;
-import org.tron.p2p.connection.ChannelManager;
-import org.tron.p2p.connection.business.MessageProcess;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.base.P2pDisconnectMessage;
-import org.tron.p2p.connection.message.keepalive.PingMessage;
-import org.tron.p2p.connection.message.keepalive.PongMessage;
-import org.tron.p2p.protos.Connect.DisconnectReason;
+import org.linda.p2p.connection.Channel;
+import org.linda.p2p.connection.ChannelManager;
+import org.linda.p2p.connection.business.MessageProcess;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.base.P2pDisconnectMessage;
+import org.linda.p2p.connection.message.keepalive.PingMessage;
+import org.linda.p2p.connection.message.keepalive.PongMessage;
+import org.linda.p2p.protos.Connect.DisconnectReason;
 
 @Slf4j(topic = "net")
 public class KeepAliveService implements MessageProcess {

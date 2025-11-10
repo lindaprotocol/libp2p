@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.update;
+package org.linda.p2p.dns.update;
 
 import com.aliyun.alidns20150109.Client;
 import com.aliyun.alidns20150109.models.*;
@@ -9,12 +9,12 @@ import java.util.HashSet;
 import java.util.Set;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.tree.LinkEntry;
-import org.tron.p2p.dns.tree.NodesEntry;
-import org.tron.p2p.dns.tree.RootEntry;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.exception.DnsException;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.tree.LinkEntry;
+import org.linda.p2p.dns.tree.NodesEntry;
+import org.linda.p2p.dns.tree.RootEntry;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.exception.DnsException;
 
 import java.util.HashMap;
 import java.util.List;
@@ -124,7 +124,7 @@ public class AliClient implements Publish {
               rootContent = r.value;
             }
             if (StringUtils.isNotEmpty(r.value) && r.value.startsWith(
-                org.tron.p2p.dns.tree.Entry.nodesPrefix)) {
+                org.linda.p2p.dns.tree.Entry.nodesPrefix)) {
               NodesEntry nodesEntry;
               try {
                 nodesEntry = NodesEntry.parseEntry(r.value);

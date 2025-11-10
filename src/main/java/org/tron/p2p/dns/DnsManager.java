@@ -1,4 +1,4 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import java.util.ArrayList;
@@ -8,12 +8,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.dns.sync.Client;
-import org.tron.p2p.dns.sync.RandomIterator;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.dns.update.PublishService;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.dns.sync.Client;
+import org.linda.p2p.dns.sync.RandomIterator;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.dns.update.PublishService;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class DnsManager {

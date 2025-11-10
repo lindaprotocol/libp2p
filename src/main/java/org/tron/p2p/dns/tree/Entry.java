@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 public interface Entry {

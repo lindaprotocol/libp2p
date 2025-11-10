@@ -1,4 +1,4 @@
-package org.tron.p2p.example;
+package org.linda.p2p.example;
 
 
 import static java.lang.Thread.sleep;
@@ -17,13 +17,13 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.P2pService;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.dns.update.DnsType;
-import org.tron.p2p.dns.update.PublishConfig;
-import org.tron.p2p.utils.ByteArray;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.P2pService;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.dns.update.DnsType;
+import org.linda.p2p.dns.update.PublishConfig;
+import org.linda.p2p.utils.ByteArray;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class StartApp {

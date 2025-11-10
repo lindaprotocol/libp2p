@@ -1,4 +1,4 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import com.google.protobuf.ByteString;
@@ -6,9 +6,9 @@ import java.math.BigInteger;
 import java.security.SignatureException;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.dns.tree.Algorithm;
-import org.tron.p2p.protos.Discover.DnsRoot.TreeRoot;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.dns.tree.Algorithm;
+import org.linda.p2p.protos.Discover.DnsRoot.TreeRoot;
+import org.linda.p2p.utils.ByteArray;
 
 public class AlgorithmTest {
 

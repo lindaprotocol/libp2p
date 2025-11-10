@@ -1,4 +1,4 @@
-package org.tron.p2p.discover;
+package org.linda.p2p.discover;
 
 import java.io.Serializable;
 import java.net.Inet4Address;
@@ -8,8 +8,8 @@ import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.bouncycastle.util.encoders.Hex;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class Node implements Serializable, Cloneable {

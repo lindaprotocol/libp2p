@@ -1,17 +1,17 @@
-package org.tron.p2p.connection.business.handshake;
+package org.linda.p2p.connection.business.handshake;
 
-import static org.tron.p2p.connection.ChannelManager.getDisconnectReason;
-import static org.tron.p2p.connection.ChannelManager.logDisconnectReason;
+import static org.linda.p2p.connection.ChannelManager.getDisconnectReason;
+import static org.linda.p2p.connection.ChannelManager.logDisconnectReason;
 
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.Channel;
-import org.tron.p2p.connection.ChannelManager;
-import org.tron.p2p.connection.business.MessageProcess;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.base.P2pDisconnectMessage;
-import org.tron.p2p.connection.message.handshake.HelloMessage;
-import org.tron.p2p.protos.Connect.DisconnectReason;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.Channel;
+import org.linda.p2p.connection.ChannelManager;
+import org.linda.p2p.connection.business.MessageProcess;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.base.P2pDisconnectMessage;
+import org.linda.p2p.connection.message.handshake.HelloMessage;
+import org.linda.p2p.protos.Connect.DisconnectReason;
 
 @Slf4j(topic = "net")
 public class HandshakeService implements MessageProcess {

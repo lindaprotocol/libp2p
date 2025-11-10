@@ -1,15 +1,15 @@
-package org.tron.p2p.discover.message.kad;
+package org.linda.p2p.discover.message.kad;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.message.MessageType;
-import org.tron.p2p.discover.protocol.kad.table.KademliaOptions;
-import org.tron.p2p.protos.Discover;
-import org.tron.p2p.protos.Discover.Endpoint;
-import org.tron.p2p.protos.Discover.Neighbours;
-import org.tron.p2p.protos.Discover.Neighbours.Builder;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.message.MessageType;
+import org.linda.p2p.discover.protocol.kad.table.KademliaOptions;
+import org.linda.p2p.protos.Discover;
+import org.linda.p2p.protos.Discover.Endpoint;
+import org.linda.p2p.protos.Discover.Neighbours;
+import org.linda.p2p.protos.Discover.Neighbours.Builder;
+import org.linda.p2p.utils.NetUtil;
 
 public class NeighborsMessage extends KadMessage {
 

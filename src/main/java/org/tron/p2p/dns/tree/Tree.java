@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 import com.google.protobuf.InvalidProtocolBufferException;
@@ -15,11 +15,11 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.update.AliClient;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.update.AliClient;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class Tree {

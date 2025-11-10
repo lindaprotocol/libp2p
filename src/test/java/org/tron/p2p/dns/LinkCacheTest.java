@@ -1,10 +1,10 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.dns.sync.LinkCache;
+import org.linda.p2p.dns.sync.LinkCache;
 
 public class LinkCacheTest {
 

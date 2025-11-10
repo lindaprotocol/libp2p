@@ -1,4 +1,4 @@
-package org.tron.p2p.exception;
+package org.linda.p2p.exception;
 
 public class P2pException extends Exception {
 

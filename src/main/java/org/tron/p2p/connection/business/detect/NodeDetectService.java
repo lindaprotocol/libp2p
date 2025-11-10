@@ -1,4 +1,4 @@
-package org.tron.p2p.connection.business.detect;
+package org.linda.p2p.connection.business.detect;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
@@ -15,14 +15,14 @@ import java.util.concurrent.TimeUnit;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.Channel;
-import org.tron.p2p.connection.business.MessageProcess;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.detect.StatusMessage;
-import org.tron.p2p.connection.socket.PeerClient;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.NodeManager;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.Channel;
+import org.linda.p2p.connection.business.MessageProcess;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.detect.StatusMessage;
+import org.linda.p2p.connection.socket.PeerClient;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.NodeManager;
 
 @Slf4j(topic = "net")
 public class NodeDetectService implements MessageProcess {

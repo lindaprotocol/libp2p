@@ -1,13 +1,13 @@
-package org.tron.p2p.connection.business.upgrade;
+package org.linda.p2p.connection.business.upgrade;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import java.io.IOException;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.exception.P2pException.TypeEnum;
-import org.tron.p2p.protos.Connect.CompressMessage;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.exception.P2pException.TypeEnum;
+import org.linda.p2p.protos.Connect.CompressMessage;
 
-import org.tron.p2p.utils.ProtoUtil;
+import org.linda.p2p.utils.ProtoUtil;
 
 public class UpgradeController {
 

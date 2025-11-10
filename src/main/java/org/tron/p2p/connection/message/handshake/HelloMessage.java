@@ -1,13 +1,13 @@
-package org.tron.p2p.connection.message.handshake;
+package org.linda.p2p.connection.message.handshake;
 
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.business.handshake.DisconnectCode;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.MessageType;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.protos.Connect;
-import org.tron.p2p.protos.Discover;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.business.handshake.DisconnectCode;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.MessageType;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.protos.Connect;
+import org.linda.p2p.protos.Discover;
+import org.linda.p2p.utils.NetUtil;
 
 public class HelloMessage extends Message {
 

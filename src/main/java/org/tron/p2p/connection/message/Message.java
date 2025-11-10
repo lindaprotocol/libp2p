@@ -1,12 +1,12 @@
-package org.tron.p2p.connection.message;
+package org.linda.p2p.connection.message;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.tron.p2p.connection.message.base.P2pDisconnectMessage;
-import org.tron.p2p.connection.message.detect.StatusMessage;
-import org.tron.p2p.connection.message.handshake.HelloMessage;
-import org.tron.p2p.connection.message.keepalive.PingMessage;
-import org.tron.p2p.connection.message.keepalive.PongMessage;
-import org.tron.p2p.exception.P2pException;
+import org.linda.p2p.connection.message.base.P2pDisconnectMessage;
+import org.linda.p2p.connection.message.detect.StatusMessage;
+import org.linda.p2p.connection.message.handshake.HelloMessage;
+import org.linda.p2p.connection.message.keepalive.PingMessage;
+import org.linda.p2p.connection.message.keepalive.PongMessage;
+import org.linda.p2p.exception.P2pException;
 
 public abstract class Message {
 

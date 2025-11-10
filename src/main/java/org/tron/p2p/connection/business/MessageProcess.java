@@ -1,7 +1,7 @@
-package org.tron.p2p.connection.business;
+package org.linda.p2p.connection.business;
 
-import org.tron.p2p.connection.Channel;
-import org.tron.p2p.connection.message.Message;
+import org.linda.p2p.connection.Channel;
+import org.linda.p2p.connection.message.Message;
 
 public interface MessageProcess {
   void processMessage(Channel channel, Message message);

@@ -1,11 +1,11 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class LinkEntry implements Entry {

@@ -1,4 +1,4 @@
-package org.tron.p2p.discover.socket;
+package org.linda.p2p.discover.socket;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
@@ -10,8 +10,8 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 import java.util.concurrent.TimeUnit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.stats.TrafficStats;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.stats.TrafficStats;
 
 @Slf4j(topic = "net")
 public class DiscoverServer {

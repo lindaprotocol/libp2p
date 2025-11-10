@@ -1,15 +1,15 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.dns.sync.Client;
-import org.tron.p2p.dns.sync.ClientTree;
-import org.tron.p2p.dns.tree.Tree;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.dns.sync.Client;
+import org.linda.p2p.dns.sync.ClientTree;
+import org.linda.p2p.dns.tree.Tree;
 
 public class SyncTest {
 

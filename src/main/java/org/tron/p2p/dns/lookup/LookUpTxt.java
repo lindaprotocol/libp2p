@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.lookup;
+package org.linda.p2p.dns.lookup;
 
 
 import java.net.InetAddress;
@@ -7,7 +7,7 @@ import java.time.Duration;
 import java.util.Random;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.base.Parameter;
+import org.linda.p2p.base.Parameter;
 import org.xbill.DNS.Lookup;
 import org.xbill.DNS.Record;
 import org.xbill.DNS.SimpleResolver;

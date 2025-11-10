@@ -1,4 +1,4 @@
-package org.tron.p2p.connection.socket;
+package org.linda.p2p.connection.socket;
 
 
 import io.netty.bootstrap.ServerBootstrap;
@@ -11,7 +11,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LoggingHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Parameter;
+import org.linda.p2p.base.Parameter;
 
 @Slf4j(topic = "net")
 public class PeerServer {

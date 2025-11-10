@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.sync;
+package org.linda.p2p.dns.sync;
 
 import java.util.ArrayList;
 import java.util.HashMap;

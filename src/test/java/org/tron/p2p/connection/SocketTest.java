@@ -1,4 +1,4 @@
-package org.tron.p2p.connection;
+package org.linda.p2p.connection;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
@@ -6,10 +6,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.discover.NodeManager;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.discover.NodeManager;
 
 public class SocketTest {
 

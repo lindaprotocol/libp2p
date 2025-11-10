@@ -1,11 +1,11 @@
-package org.tron.p2p.discover.message;
+package org.linda.p2p.discover.message;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.tron.p2p.discover.message.kad.FindNodeMessage;
-import org.tron.p2p.discover.message.kad.NeighborsMessage;
-import org.tron.p2p.discover.message.kad.PingMessage;
-import org.tron.p2p.discover.message.kad.PongMessage;
-import org.tron.p2p.exception.P2pException;
+import org.linda.p2p.discover.message.kad.FindNodeMessage;
+import org.linda.p2p.discover.message.kad.NeighborsMessage;
+import org.linda.p2p.discover.message.kad.PingMessage;
+import org.linda.p2p.discover.message.kad.PongMessage;
+import org.linda.p2p.exception.P2pException;
 
 public abstract class Message {
   protected MessageType type;

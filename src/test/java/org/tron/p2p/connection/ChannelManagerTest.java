@@ -1,11 +1,11 @@
-package org.tron.p2p.connection;
+package org.linda.p2p.connection;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.business.handshake.DisconnectCode;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.business.handshake.DisconnectCode;
 
 import java.lang.reflect.Field;
 import java.net.InetAddress;

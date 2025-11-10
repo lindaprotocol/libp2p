@@ -1,4 +1,4 @@
-package org.tron.p2p.utils;
+package org.linda.p2p.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,9 +28,9 @@ import java.util.regex.Pattern;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Constant;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.protos.Discover;
+import org.linda.p2p.base.Constant;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.protos.Discover;
 
 @Slf4j(topic = "net")
 public class NetUtil {

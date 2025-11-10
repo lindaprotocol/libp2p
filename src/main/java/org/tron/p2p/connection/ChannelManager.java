@@ -1,4 +1,4 @@
-package org.tron.p2p.connection;
+package org.linda.p2p.connection;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
@@ -14,23 +14,23 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.bouncycastle.util.encoders.Hex;
-import org.tron.p2p.P2pEventHandler;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.business.detect.NodeDetectService;
-import org.tron.p2p.connection.business.handshake.DisconnectCode;
-import org.tron.p2p.connection.business.handshake.HandshakeService;
-import org.tron.p2p.connection.business.keepalive.KeepAliveService;
-import org.tron.p2p.connection.business.pool.ConnPoolService;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.base.P2pDisconnectMessage;
-import org.tron.p2p.connection.socket.PeerClient;
-import org.tron.p2p.connection.socket.PeerServer;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.exception.P2pException.TypeEnum;
-import org.tron.p2p.protos.Connect.DisconnectReason;
-import org.tron.p2p.utils.ByteArray;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.P2pEventHandler;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.business.detect.NodeDetectService;
+import org.linda.p2p.connection.business.handshake.DisconnectCode;
+import org.linda.p2p.connection.business.handshake.HandshakeService;
+import org.linda.p2p.connection.business.keepalive.KeepAliveService;
+import org.linda.p2p.connection.business.pool.ConnPoolService;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.base.P2pDisconnectMessage;
+import org.linda.p2p.connection.socket.PeerClient;
+import org.linda.p2p.connection.socket.PeerServer;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.exception.P2pException.TypeEnum;
+import org.linda.p2p.protos.Connect.DisconnectReason;
+import org.linda.p2p.utils.ByteArray;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class ChannelManager {

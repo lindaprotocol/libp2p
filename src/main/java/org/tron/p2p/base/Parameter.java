@@ -1,4 +1,4 @@
-package org.tron.p2p.base;
+package org.linda.p2p.base;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,12 +8,12 @@ import java.util.Map;
 import com.google.protobuf.ByteString;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.P2pEventHandler;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.exception.P2pException.TypeEnum;
-import org.tron.p2p.protos.Discover;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.P2pEventHandler;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.exception.P2pException.TypeEnum;
+import org.linda.p2p.protos.Discover;
+import org.linda.p2p.utils.ByteArray;
 
 @Data
 public class Parameter {

@@ -65,7 +65,7 @@ available dns publish cli options:
 ```
 
 For details please
-check [StartApp](https://github.com/tronprotocol/libp2p/blob/main/src/main/java/org/tron/p2p/example/StartApp.java)
+check [StartApp](https://github.com/lindaprotocol/libp2p/blob/main/src/main/java/org/linda/p2p/example/StartApp.java)
 .
 
 ## 1.1 Construct a p2p network using libp2p
@@ -154,15 +154,15 @@ tree to get nodes dynamically.
 
 ## 2.1 Core classes
 
-* [P2pService](https://github.com/tronprotocol/libp2p/blob/main/src/main/java/org/tron/p2p/P2pService.java)
+* [P2pService](https://github.com/lindaprotocol/libp2p/blob/main/src/main/java/org/linda/p2p/P2pService.java)
   is the entry class of p2p service and provides the startup interface of p2p service and the main
   interfaces provided by p2p module.
-* [P2pConfig](https://github.com/tronprotocol/libp2p/blob/main/src/main/java/org/tron/p2p/P2pConfig.java)
+* [P2pConfig](https://github.com/lindaprotocol/libp2p/blob/main/src/main/java/org/linda/p2p/P2pConfig.java)
   defines all the configurations of the p2p module, such as the listening port, the maximum number
   of connections, etc.
-* [P2pEventHandler](https://github.com/tronprotocol/libp2p/blob/main/src/main/java/org/tron/p2p/P2pEventHandler.java)
+* [P2pEventHandler](https://github.com/lindaprotocol/libp2p/blob/main/src/main/java/org/linda/p2p/P2pEventHandler.java)
   is the abstract class for p2p event handler.
-* [Channel](https://github.com/tronprotocol/libp2p/blob/main/src/main/java/org/tron/p2p/connection/Channel.java)
+* [Channel](https://github.com/lindaprotocol/libp2p/blob/main/src/main/java/org/linda/p2p/connection/Channel.java)
   is an implementation of the TCP connection channel in the p2p module. The new connection channel
   is obtained through the `P2pEventHandler.onConnect` method.
 
@@ -300,7 +300,7 @@ Suppose these scenes in libp2p:
 * you don't want to config one or many fixed seed nodes in mobile app such as wallet, because nodes may be out of service but you cannot update the app timely
 * you don't known any seed node but you still want to establish tcp connection
 
-You can config a dns tree regardless of whether discovery service is enabled or not. Assume you have a tree url of Tron's nile or shasta or mainnet nodes that publish on github like:
+You can config a dns tree regardless of whether discovery service is enabled or not. Assume you have a tree url of Linda's nile or shasta or mainnet nodes that publish on github like:
 ```azure
 tree://APFGGTFOBVE2ZNAB3CSMNNX6RRK3ODIRLP2AA5U4YFAA6MSYZUYTQ@nodes.example.org
 ```
@@ -416,6 +416,6 @@ p2pService.start(config);
 ```
 
 For details please
-check [ImportUsing](https://github.com/tronprotocol/libp2p/blob/develop/src/main/java/org/tron/p2p/example/ImportUsing.java), [DnsExample1](https://github.com/tronprotocol/libp2p/blob/develop/src/main/java/org/tron/p2p/example/DnsExample1.java), [DnsExample2](https://github.com/tronprotocol/libp2p/blob/develop/src/main/java/org/tron/p2p/example/DnsExample2.java)
+check [ImportUsing](https://github.com/lindaprotocol/libp2p/blob/develop/src/main/java/org/linda/p2p/example/ImportUsing.java), [DnsExample1](https://github.com/lindaprotocol/libp2p/blob/develop/src/main/java/org/linda/p2p/example/DnsExample1.java), [DnsExample2](https://github.com/lindaprotocol/libp2p/blob/develop/src/main/java/org/linda/p2p/example/DnsExample2.java)
 
 

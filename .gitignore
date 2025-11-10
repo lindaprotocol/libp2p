@@ -4,7 +4,7 @@
 .DS_Store
 gs
 
-src/main/java/org/tron/p2p/protos
+src/main/java/org/linda/p2p/protos
 
 # gradle
 .gradle
@@ -30,4 +30,4 @@ shareddata.*
 /.settings/
 /.apt_generated/
 
-/src/test/java/org/tron/p2p/dns/PublishTest.java
+/src/test/java/org/linda/p2p/dns/PublishTest.java

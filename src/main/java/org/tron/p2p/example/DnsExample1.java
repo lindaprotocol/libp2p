@@ -1,4 +1,4 @@
-package org.tron.p2p.example;
+package org.linda.p2p.example;
 
 
 import static java.lang.Thread.sleep;
@@ -7,12 +7,12 @@ import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.P2pService;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.dns.update.DnsType;
-import org.tron.p2p.dns.update.PublishConfig;
-import org.tron.p2p.stats.P2pStats;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.P2pService;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.dns.update.DnsType;
+import org.linda.p2p.dns.update.PublishConfig;
+import org.linda.p2p.stats.P2pStats;
 
 public class DnsExample1 {
 

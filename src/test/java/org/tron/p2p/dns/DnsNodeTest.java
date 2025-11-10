@@ -1,4 +1,4 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import com.google.protobuf.InvalidProtocolBufferException;

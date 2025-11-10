@@ -1,23 +1,23 @@
-package org.tron.p2p.connection;
+package org.linda.p2p.connection;
 
 
-import static org.tron.p2p.base.Parameter.NETWORK_TIME_DIFF;
+import static org.linda.p2p.base.Parameter.NETWORK_TIME_DIFF;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.business.handshake.DisconnectCode;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.MessageType;
-import org.tron.p2p.connection.message.handshake.HelloMessage;
-import org.tron.p2p.connection.message.keepalive.PingMessage;
-import org.tron.p2p.connection.message.keepalive.PongMessage;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.exception.P2pException.TypeEnum;
-import org.tron.p2p.protos.Connect;
-import org.tron.p2p.protos.Connect.KeepAliveMessage;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.business.handshake.DisconnectCode;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.MessageType;
+import org.linda.p2p.connection.message.handshake.HelloMessage;
+import org.linda.p2p.connection.message.keepalive.PingMessage;
+import org.linda.p2p.connection.message.keepalive.PongMessage;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.exception.P2pException.TypeEnum;
+import org.linda.p2p.protos.Connect;
+import org.linda.p2p.protos.Connect.KeepAliveMessage;
 
 public class MessageTest {
 

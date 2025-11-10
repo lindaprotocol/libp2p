@@ -1,9 +1,9 @@
-package org.tron.p2p.discover;
+package org.linda.p2p.discover;
 
 import java.util.List;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.discover.protocol.kad.KadService;
-import org.tron.p2p.discover.socket.DiscoverServer;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.discover.protocol.kad.KadService;
+import org.linda.p2p.discover.socket.DiscoverServer;
 
 public class NodeManager {
 

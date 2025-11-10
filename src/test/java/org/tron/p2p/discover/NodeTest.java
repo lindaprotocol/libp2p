@@ -1,12 +1,12 @@
-package org.tron.p2p.discover;
+package org.linda.p2p.discover;
 
 import java.net.InetSocketAddress;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.utils.NetUtil;
 
 public class NodeTest {
 

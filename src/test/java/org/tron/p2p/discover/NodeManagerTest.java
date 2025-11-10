@@ -1,9 +1,9 @@
-package org.tron.p2p.discover;
+package org.linda.p2p.discover;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.base.Parameter;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.base.Parameter;
 
 public class NodeManagerTest {
   @Test

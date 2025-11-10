@@ -1,4 +1,4 @@
-package org.tron.p2p.connection.socket;
+package org.linda.p2p.connection.socket;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -11,10 +11,10 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.bouncycastle.util.encoders.Hex;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.ChannelManager;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.ChannelManager;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class PeerClient {

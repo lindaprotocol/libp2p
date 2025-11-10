@@ -1,11 +1,11 @@
-package org.tron.p2p.utils;
+package org.linda.p2p.utils;
 
 import com.google.protobuf.ByteString;
 import java.io.IOException;
 
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.protos.Connect;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.protos.Connect;
 import org.xerial.snappy.Snappy;
 
 public class ProtoUtil {

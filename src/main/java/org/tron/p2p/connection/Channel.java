@@ -1,4 +1,4 @@
-package org.tron.p2p.connection;
+package org.linda.p2p.connection;
 
 import com.google.common.base.Throwables;
 import io.netty.buffer.ByteBuf;
@@ -20,16 +20,16 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.business.upgrade.UpgradeController;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.handshake.HelloMessage;
-import org.tron.p2p.connection.socket.MessageHandler;
-import org.tron.p2p.connection.socket.P2pProtobufVarint32FrameDecoder;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.stats.TrafficStats;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.business.upgrade.UpgradeController;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.handshake.HelloMessage;
+import org.linda.p2p.connection.socket.MessageHandler;
+import org.linda.p2p.connection.socket.P2pProtobufVarint32FrameDecoder;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.stats.TrafficStats;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class Channel {

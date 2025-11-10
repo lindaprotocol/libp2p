@@ -1,8 +1,8 @@
-package org.tron.p2p.utils;
+package org.linda.p2p.utils;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.dns.update.AwsClient;
+import org.linda.p2p.dns.update.AwsClient;
 
 
 public class ByteArrayTest {

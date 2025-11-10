@@ -1,4 +1,4 @@
-package org.tron.p2p;
+package org.linda.p2p;
 
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
@@ -8,15 +8,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.Channel;
-import org.tron.p2p.connection.ChannelManager;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.NodeManager;
-import org.tron.p2p.dns.DnsManager;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.stats.P2pStats;
-import org.tron.p2p.stats.StatsManager;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.Channel;
+import org.linda.p2p.connection.ChannelManager;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.NodeManager;
+import org.linda.p2p.dns.DnsManager;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.stats.P2pStats;
+import org.linda.p2p.stats.StatsManager;
 
 @Slf4j(topic = "net")
 public class P2pService {

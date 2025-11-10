@@ -1,7 +1,7 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
-import static org.tron.p2p.discover.message.kad.KadMessage.getEndpointFromNode;
+import static org.linda.p2p.discover.message.kad.KadMessage.getEndpointFromNode;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import java.net.InetAddress;
@@ -10,14 +10,14 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.base.Constant;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.dns.tree.Algorithm;
-import org.tron.p2p.protos.Discover;
-import org.tron.p2p.protos.Discover.EndPoints;
-import org.tron.p2p.protos.Discover.EndPoints.Builder;
-import org.tron.p2p.protos.Discover.Endpoint;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.base.Constant;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.dns.tree.Algorithm;
+import org.linda.p2p.protos.Discover;
+import org.linda.p2p.protos.Discover.EndPoints;
+import org.linda.p2p.protos.Discover.EndPoints.Builder;
+import org.linda.p2p.protos.Discover.Endpoint;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class DnsNode extends Node implements Comparable<DnsNode> {

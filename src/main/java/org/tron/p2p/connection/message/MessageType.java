@@ -1,4 +1,4 @@
-package org.tron.p2p.connection.message;
+package org.linda.p2p.connection.message;
 
 import java.util.HashMap;
 import java.util.Map;

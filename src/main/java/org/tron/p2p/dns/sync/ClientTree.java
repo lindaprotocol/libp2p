@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.sync;
+package org.linda.p2p.dns.sync;
 
 
 import java.net.UnknownHostException;
@@ -11,12 +11,12 @@ import java.util.Set;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.tree.Entry;
-import org.tron.p2p.dns.tree.LinkEntry;
-import org.tron.p2p.dns.tree.NodesEntry;
-import org.tron.p2p.dns.tree.RootEntry;
-import org.tron.p2p.exception.DnsException;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.tree.Entry;
+import org.linda.p2p.dns.tree.LinkEntry;
+import org.linda.p2p.dns.tree.NodesEntry;
+import org.linda.p2p.dns.tree.RootEntry;
+import org.linda.p2p.exception.DnsException;
 import org.xbill.DNS.TextParseException;
 
 @Slf4j(topic = "net")

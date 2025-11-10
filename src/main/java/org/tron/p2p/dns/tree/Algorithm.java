@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.tree;
+package org.linda.p2p.dns.tree;
 
 
 import java.math.BigInteger;
@@ -12,7 +12,7 @@ import org.bouncycastle.crypto.ec.CustomNamedCurves;
 import org.bouncycastle.crypto.params.ECDomainParameters;
 import org.bouncycastle.math.ec.ECPoint;
 import org.bouncycastle.util.encoders.Base32;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.utils.ByteArray;
 import org.web3j.crypto.ECKeyPair;
 import org.web3j.crypto.Hash;
 import org.web3j.crypto.Sign;

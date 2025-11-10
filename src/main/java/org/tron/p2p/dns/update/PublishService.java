@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.update;
+package org.linda.p2p.dns.update;
 
 import java.net.Inet4Address;
 import java.net.InetSocketAddress;
@@ -13,11 +13,11 @@ import java.util.concurrent.TimeUnit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.NodeManager;
-import org.tron.p2p.dns.DnsNode;
-import org.tron.p2p.dns.tree.Tree;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.NodeManager;
+import org.linda.p2p.dns.DnsNode;
+import org.linda.p2p.dns.tree.Tree;
 
 @Slf4j(topic = "net")
 public class PublishService {

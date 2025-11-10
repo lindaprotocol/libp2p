@@ -1,9 +1,9 @@
-package org.tron.p2p.discover.protocol.kad.table;
+package org.linda.p2p.discover.protocol.kad.table;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.utils.NetUtil;
 
 import java.net.InetSocketAddress;
 

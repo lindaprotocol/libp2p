@@ -1,12 +1,12 @@
-package org.tron.p2p.discover.message.kad;
+package org.linda.p2p.discover.message.kad;
 
 import com.google.protobuf.ByteString;
 import org.apache.commons.lang3.StringUtils;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.message.Message;
-import org.tron.p2p.discover.message.MessageType;
-import org.tron.p2p.protos.Discover.Endpoint;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.message.Message;
+import org.linda.p2p.discover.message.MessageType;
+import org.linda.p2p.protos.Discover.Endpoint;
+import org.linda.p2p.utils.ByteArray;
 
 public abstract class KadMessage extends Message {
 

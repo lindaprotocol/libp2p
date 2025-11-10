@@ -1,7 +1,7 @@
-package org.tron.p2p.discover;
+package org.linda.p2p.discover;
 
-import org.tron.p2p.discover.socket.EventHandler;
-import org.tron.p2p.discover.socket.UdpEvent;
+import org.linda.p2p.discover.socket.EventHandler;
+import org.linda.p2p.discover.socket.UdpEvent;
 
 import java.util.List;
 

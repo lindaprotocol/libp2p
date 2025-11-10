@@ -1,13 +1,13 @@
-package org.tron.p2p.connection.message.detect;
+package org.linda.p2p.connection.message.detect;
 
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.connection.ChannelManager;
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.MessageType;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.protos.Connect;
-import org.tron.p2p.protos.Discover;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.connection.ChannelManager;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.MessageType;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.protos.Connect;
+import org.linda.p2p.protos.Discover;
+import org.linda.p2p.utils.NetUtil;
 
 public class StatusMessage extends Message {
   private Connect.StatusMessage statusMessage;

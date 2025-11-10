@@ -1,4 +1,4 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import java.net.UnknownHostException;
@@ -8,12 +8,12 @@ import java.util.List;
 import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.P2pConfig;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.dns.update.AwsClient;
-import org.tron.p2p.dns.update.AwsClient.RecordSet;
-import org.tron.p2p.dns.update.PublishConfig;
-import org.tron.p2p.exception.DnsException;
+import org.linda.p2p.P2pConfig;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.dns.update.AwsClient;
+import org.linda.p2p.dns.update.AwsClient.RecordSet;
+import org.linda.p2p.dns.update.PublishConfig;
+import org.linda.p2p.exception.DnsException;
 import software.amazon.awssdk.services.route53.model.Change;
 import software.amazon.awssdk.services.route53.model.ChangeAction;
 

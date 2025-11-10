@@ -1,4 +1,4 @@
-package org.tron.p2p.dns;
+package org.linda.p2p.dns;
 
 
 import com.google.protobuf.InvalidProtocolBufferException;
@@ -11,11 +11,11 @@ import java.util.Random;
 import java.util.Set;
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.dns.tree.Algorithm;
-import org.tron.p2p.dns.tree.Entry;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.dns.update.PublishConfig;
-import org.tron.p2p.exception.DnsException;
+import org.linda.p2p.dns.tree.Algorithm;
+import org.linda.p2p.dns.tree.Entry;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.dns.update.PublishConfig;
+import org.linda.p2p.exception.DnsException;
 
 public class TreeTest {
 

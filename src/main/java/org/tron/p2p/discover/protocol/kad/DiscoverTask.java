@@ -1,4 +1,4 @@
-package org.tron.p2p.discover.protocol.kad;
+package org.linda.p2p.discover.protocol.kad;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.discover.Node;
-import org.tron.p2p.discover.protocol.kad.table.KademliaOptions;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.discover.Node;
+import org.linda.p2p.discover.protocol.kad.table.KademliaOptions;
+import org.linda.p2p.utils.NetUtil;
 
 @Slf4j(topic = "net")
 public class DiscoverTask {

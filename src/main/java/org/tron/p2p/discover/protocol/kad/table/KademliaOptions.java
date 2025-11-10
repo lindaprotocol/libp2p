@@ -1,4 +1,4 @@
-package org.tron.p2p.discover.protocol.kad.table;
+package org.linda.p2p.discover.protocol.kad.table;
 
 public class KademliaOptions {
   public static final int BUCKET_SIZE = 16;

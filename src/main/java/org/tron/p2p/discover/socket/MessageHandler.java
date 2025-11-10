@@ -1,4 +1,4 @@
-package org.tron.p2p.discover.socket;
+package org.linda.p2p.discover.socket;
 
 import java.net.InetSocketAddress;
 import java.util.function.Consumer;

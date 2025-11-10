@@ -1,4 +1,4 @@
-package org.tron.p2p.discover.socket;
+package org.linda.p2p.discover.socket;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import java.util.List;
@@ -7,9 +7,9 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.socket.DatagramPacket;
 import io.netty.handler.codec.MessageToMessageDecoder;
 import lombok.extern.slf4j.Slf4j;
-import org.tron.p2p.discover.message.Message;
-import org.tron.p2p.exception.P2pException;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.discover.message.Message;
+import org.linda.p2p.exception.P2pException;
+import org.linda.p2p.utils.ByteArray;
 
 @Slf4j(topic = "net")
 public class P2pPacketDecoder extends MessageToMessageDecoder<DatagramPacket> {

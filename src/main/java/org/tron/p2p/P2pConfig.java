@@ -1,4 +1,4 @@
-package org.tron.p2p;
+package org.linda.p2p;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import lombok.Data;
-import org.tron.p2p.dns.update.PublishConfig;
-import org.tron.p2p.utils.NetUtil;
+import org.linda.p2p.dns.update.PublishConfig;
+import org.linda.p2p.utils.NetUtil;
 
 @Data
 public class P2pConfig {

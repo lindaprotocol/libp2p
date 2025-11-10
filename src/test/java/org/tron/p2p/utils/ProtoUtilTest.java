@@ -1,9 +1,9 @@
-package org.tron.p2p.utils;
+package org.linda.p2p.utils;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.tron.p2p.connection.message.keepalive.PingMessage;
-import org.tron.p2p.protos.Connect;
+import org.linda.p2p.connection.message.keepalive.PingMessage;
+import org.linda.p2p.protos.Connect;
 
 public class ProtoUtilTest {
 

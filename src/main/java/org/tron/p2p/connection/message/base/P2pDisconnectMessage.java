@@ -1,9 +1,9 @@
-package org.tron.p2p.connection.message.base;
+package org.linda.p2p.connection.message.base;
 
-import org.tron.p2p.connection.message.Message;
-import org.tron.p2p.connection.message.MessageType;
-import org.tron.p2p.protos.Connect;
-import org.tron.p2p.protos.Connect.DisconnectReason;
+import org.linda.p2p.connection.message.Message;
+import org.linda.p2p.connection.message.MessageType;
+import org.linda.p2p.protos.Connect;
+import org.linda.p2p.protos.Connect.DisconnectReason;
 
 
 public class P2pDisconnectMessage extends Message {

@@ -1,4 +1,4 @@
-package org.tron.p2p.dns.sync;
+package org.linda.p2p.dns.sync;
 
 
 import com.google.common.cache.Cache;
@@ -15,18 +15,18 @@ import java.util.concurrent.TimeUnit;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.tron.p2p.base.Parameter;
-import org.tron.p2p.dns.lookup.LookUpTxt;
-import org.tron.p2p.dns.tree.Algorithm;
-import org.tron.p2p.dns.tree.BranchEntry;
-import org.tron.p2p.dns.tree.Entry;
-import org.tron.p2p.dns.tree.LinkEntry;
-import org.tron.p2p.dns.tree.NodesEntry;
-import org.tron.p2p.dns.tree.RootEntry;
-import org.tron.p2p.dns.tree.Tree;
-import org.tron.p2p.exception.DnsException;
-import org.tron.p2p.exception.DnsException.TypeEnum;
-import org.tron.p2p.utils.ByteArray;
+import org.linda.p2p.base.Parameter;
+import org.linda.p2p.dns.lookup.LookUpTxt;
+import org.linda.p2p.dns.tree.Algorithm;
+import org.linda.p2p.dns.tree.BranchEntry;
+import org.linda.p2p.dns.tree.Entry;
+import org.linda.p2p.dns.tree.LinkEntry;
+import org.linda.p2p.dns.tree.NodesEntry;
+import org.linda.p2p.dns.tree.RootEntry;
+import org.linda.p2p.dns.tree.Tree;
+import org.linda.p2p.exception.DnsException;
+import org.linda.p2p.exception.DnsException.TypeEnum;
+import org.linda.p2p.utils.ByteArray;
 import org.xbill.DNS.TXTRecord;
 import org.xbill.DNS.TextParseException;
 
