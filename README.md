@@ -11,7 +11,7 @@ Building libp2p requires `git` and `Oracle JDK 1.8` to be installed, other JDK v
 Clone the repo and switch to the `main` branch
 
   ```bash
-  $ git clone https://github.com/tronprotocol/libp2p.git
+  $ git clone https://github.com/lindaprotocol/libp2p.git
   $ cd libp2p
   $ git checkout -t origin/main
   ```
@@ -29,7 +29,7 @@ then run the following command to start the node:
 ```bash
 $ nohup java -jar libp2p.jar [options] >> start.log 2>&1 &
 ```
-See the manual for details on [options](https://github.com/tronprotocol/libp2p/tree/develop/src/main/java/org/tron/p2p/example/README.md)
+See the manual for details on [options](https://github.com/lindaprotocol/libp2p/tree/develop/src/main/java/org/linda/p2p/example/README.md)
 
 ## How to include the dependency
 ### Gradle Setting
@@ -43,7 +43,7 @@ repositories {
 Then add the required packages as dependencies. Please add dependencies locally.
 ```bash
 dependencies {
-    implementation group: 'io.github.tronprotocol', name: 'libp2p', version: '2.2.5'
+    implementation group: 'com.github.lindaprotocol', name: 'libp2p', version: '2.2.5'
 }
 ```
 Or if you are using the jar files as your dependencies:
@@ -64,18 +64,18 @@ dependencies {
 </repositories>
 
 <dependency>
-    <groupId>io.github.tronprotocol</groupId>
+    <groupId>io.github.lindaprotocol</groupId>
     <artifactId>libp2p</artifactId>
     <version>2.2.5</version>
 </dependency>
 ```
 
 ## Example
-For some examples please check our [example package](https://github.com/tronprotocol/libp2p/tree/develop/src/main/java/org/tron/p2p/example). 
+For some examples please check our [example package](https://github.com/lindaprotocol/libp2p/tree/develop/src/main/java/org/linda/p2p/example). 
 
 # Integrity Check
 * After February 21, 2023， releases are signed the gpg key:
   ```
   pub: 1254 F859 D2B1 BD9F 66E7 107D F859 BCB4 4A28 290B
-  uid: build@tron.network
+  uid: build@linda.network
   ```

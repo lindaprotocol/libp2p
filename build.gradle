@@ -1,4 +1,4 @@
-group 'io.github.tronprotocol'
+group 'com.github.lindaprotocol'
 version '2.2.5'
 
 buildscript {
@@ -20,7 +20,7 @@ apply plugin: 'application'
 def protobufVersion = "3.25.5"
 def grpcVersion = "1.60.0"
 
-mainClassName = 'org.tron.p2p.example.StartApp'
+mainClassName = 'org.linda.p2p.example.StartApp'
 
 repositories {
     mavenLocal()
@@ -134,7 +134,7 @@ shadowJar {
 
 
 clean.doFirst {
-    delete "src/main/java/org/tron/p2p/protos"
+    delete "src/main/java/org/linda/p2p/protos"
 }
 
 compileJava {
